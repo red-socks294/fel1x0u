@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hi, my name is Felix and this is my Github page! I am going to use GitHub to store my files when I don't need them. For now, let me tell you about myself!
+###
 
 <!--
 **fel1x0u/fel1x0u** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
