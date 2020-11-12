@@ -1,5 +1,6 @@
 # This is a discord bot. It's prefix is &
 # Please note that you will need FFMEPG along with discord.py WITH full voice support.
+# You can install that by doing pip install discord.py[voice] in your command promp
 
 
 
@@ -17,7 +18,7 @@ from discord.utils import get
 from os import system
 #from time import sleep
 
-client = commands.Bot(command_prefix = 'f!')
+client = commands.Bot(command_prefix = '&')
 prefix = 'f!'
 
 @client.event
@@ -305,4 +306,5 @@ async def queue(ctx, url: str):
 
 	print("Song added to queue\n")
 
-client.run("NzYzNTY1NDk5MzQyMzg5MjY4.X35jyQ.rvUjcfllHYdEqPDwSe0Bk7_LKfI")
+client.run("")
+# Put your token here
