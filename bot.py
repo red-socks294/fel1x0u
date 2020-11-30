@@ -16,7 +16,7 @@ import asyncio
 import shutil
 from discord.utils import get
 from os import system
-#from time import sleep
+from time import sleep
 
 client = commands.Bot(command_prefix = '&')
 prefix = 'f!'
@@ -66,6 +66,8 @@ async def _8ball(ctx, *, question):
 async def clearmsg(ctx, amount : int):
 	await ctx.channel.purge(limit=amount+1)
 	print(f"The bot has cleared {amount+1} messages!")
+	sleep(5)
+	await ctx.channel.purge(1)
 @client.command()
 async def kick(ctx, member : discord.Member, *, reason=None):
 	await member.kick(reason=reason)
