@@ -1,6 +1,5 @@
 # This is a discord bot. It's prefix is &
-# Please note that you will need FFMEPG along with discord.py WITH full voice support.
-# You can install that by doing pip install discord.py[voice] in your command promp
+# install modules: pip install asyncio discord
 
 
 
@@ -10,7 +9,7 @@ import random
 from discord.ext import commands, tasks
 import os
 from itertools import cycle
-#i	mport youtube_dl
+#import youtube_dl
 import json
 import asyncio
 import shutil
@@ -18,13 +17,13 @@ from discord.utils import get
 from os import system
 from time import sleep
 
-client = commands.Bot(command_prefix = '&')
-prefix = 'f!'
+client = commands.Bot(command_prefix = '&', intents=discord.Intents.default())
+prefix = '&'
 
 @client.event
 async def on_ready():
         print('Bot is ready.')
-        await client.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game("Watching 2 servers | Owner is Felix Ou#2654 | Selfhosted | Working to make it online 24/7"))
+        await client.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game("I am an bot"))
         print(f"The bot's prefix is {prefix}\n")
 	#Tanks to meme for solving the join issue
 	#aka  worship him
