@@ -6,7 +6,7 @@ For now, [here's](bot.py) some code to a discord bot!!
 
 My files are accessable at [https://fel1x0u.github.io/files](https://fel1x0u.github.io/files) to everyone!
 
-The files are also avalible @ the repo [fel1x0u/files](fel1x0u/files).
+The files are also avalible @ the repo [fel1x0u/files](https://github.com/fel1x0u/files).
 
 
 <!--
