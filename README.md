@@ -7,7 +7,7 @@ For now, [here's](bot.py) some code to a discord bot!!
 My files are accessable at [https://fel1x0u.github.io/files](https://fel1x0u.github.io/files) to everyone!
 
 The files are also avalible @ the repo [fel1x0u/files](https://github.com/fel1x0u/files).
-[GitHub stats](https://github-readme-stats.vercel.app/api?username=fel1x0u]
+[GitHub stats](https://github-readme-stats.vercel.app/api?username=fel1x0u)
 
 <!--
 **fel1x0u/fel1x0u** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
